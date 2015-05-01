@@ -1,0 +1,10 @@
+{
+    "name": "sweg",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "sweg.xml",
+    "author": "KianDaBoss",
+    "minimum_firmware_version": 42
+}
