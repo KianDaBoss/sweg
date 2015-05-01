@@ -1,22 +1,23 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_forward" id="82" x="103" y="153">
     <next>
-      <block type="movement_left" id="111">
+      <block type="robot_delay" id="159" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="166">
+            <field name="NUM">1</field>
+          </block>
+        </value>
         <next>
-          <block type="movement_forward" id="132">
+          <block type="led_select" id="141" inline="true">
+            <field name="ACTION">ON</field>
+            <value name="LED">
+              <block type="math_number" id="148">
+                <field name="NUM">5</field>
+              </block>
+            </value>
             <next>
-              <block type="led_select" id="141" inline="true">
-                <field name="ACTION">ON</field>
-                <value name="LED">
-                  <block type="math_number" id="148">
-                    <field name="NUM">5</field>
-                  </block>
-                </value>
-                <next>
-                  <block type="comment_comment" id="157">
-                    <field name="TEXT">u mad bro</field>
-                  </block>
-                </next>
+              <block type="comment_comment" id="157">
+                <field name="TEXT">u mad bro</field>
               </block>
             </next>
           </block>
